@@ -1,0 +1,32 @@
+{
+  "name": "fin-tech-api",
+  "version": "1.0.0",
+  "description": "An for fintech companies in Nigeria",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orizee01/fin-tech-api.git"
+  },
+  "author": "ogunneye oreoluwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orizee01/fin-tech-api/issues"
+  },
+  "homepage": "https://github.com/orizee01/fin-tech-api#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pg-promise": "^10.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
